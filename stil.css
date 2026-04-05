@@ -2,6 +2,14 @@ body {
 	background-color: #0D1B2A;
 }
 
+a {
+	text-decoration: none;
+}
+
+.trenutna {
+	background-color: #0D1B2A;
+}
+
 h1, h2, h3 {
 	color: #BFA46F;
 	text-align: center;
@@ -313,6 +321,10 @@ body.svetla_tema .kretanje a {
 }
 
 body.svetla_tema .kretanje a:hover {
+	background-color: #FFF6E5;
+}
+
+body.svetla_tema a.trenutna {
 	background-color: #FFF6E5;
 }
 
